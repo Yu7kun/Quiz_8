@@ -9,7 +9,7 @@ All images are from PV screenshots
 
 - **Visual effect:** "In this PV, the method of breaking the screen (breaking the fourth wall) is used many times to give the viewer visual conflict. In this PV, by using fractal art to show the image of the character, it is not only For aesthetic effect and more importantly to convey the character's multifaceted nature and mystery.
 
-![An image of Broken effect](./assets/BrokenPerformance1.jpg)
+![An image of Broken effect](./assets/BrokenPerformance2.jpg)
 
 - **ideas and concepts:** Each fractal pattern is a side of the character, and when these sides are combined together, they present a richer and more complex image that is consistent with the real-life character. , everyone has different angles and aspects, forming a multi-faceted whole.
 
