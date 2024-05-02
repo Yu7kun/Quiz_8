@@ -9,24 +9,48 @@ All images are from PV screenshots
 
 - **Visual effect:** "In this PV, the method of breaking the screen (breaking the fourth wall) is used many times to give the viewer visual conflict. In this PV, by using fractal art to show the image of the character, it is not only For aesthetic effect and more importantly to convey the character's multifaceted nature and mystery.
 
+![An image of Broken effect](./assets/BrokenPerformance1.jpg)
 ![An image of Broken effect](./assets/BrokenPerformance2.jpg)
+![An image of Broken effect](./assets/BrokenPerformance3.jpg)
 
 - **ideas and concepts:** Each fractal pattern is a side of the character, and when these sides are combined together, they present a richer and more complex image that is consistent with the real-life character. , everyone has different angles and aspects, forming a multi-faceted whole.
 
+![An image of FractalArt1](./assets/FractalArt1.jpg)
+![An image of FractalArt1](./assets/FractalArt2.jpg)
 
 I wanted to emulate this imaging technique and try to express the multifaceted nature of things in my work. I want to break the conventional narrative structure or use artistic techniques to show the diversity of objects or characters, so that the audience can have more thoughts and associations while watching the work.
 
 
 ## Part 2: Exploration of Coding Technology
 
-I will utilize Three.js to achieve the visual effects of Escher's "Ascending and Descending". Three.js is a JavaScript library based on WebGL, ideal for crafting intricate 3D scenes and animations. Through Three.js, I can emulate the non-linear structures and spatial illusions akin to Escher's work, thus constructing a seemingly impossible world.
+For the implementation of the visual effects inspired by the color palette of the PV image, I will use FBM Feedback GLSL from the p5.js library.
 
-- **Advantages of Three.js:** It offers a robust rendering engine and a flexible API, facilitating the creation of non-linear structures and illusions reminiscent of Escher's artwork.
+- **How p5.js FBM Feedback GLSL Helps:** The FBM Feedback GLSL in p5.js allows for the creation of intricate and visually dynamic patterns. By leveraging this function, we can generate color gradients and textures that mimic the complexity and richness of the PV color palette. Adjusting parameters such as persistence, octaves, and scale enables us to fine-tune the appearance of the generated patterns to closely match the desired color scheme.
 
-- **Example Implementation:** Below is an example image demonstrating an Escher-style scene created using Three.js:
+- **Example Implementation:** Below is an example link demonstrating the use of the vTexCoord function from the p5.js library to create color patterns inspired by the PV image:
 
-![Three.js Example](https://example.com/threejs_example.jpg)
+[p5.js FBM Example](./assets/Example1.png)
+[Link CODE](https://editor.p5js.org/marcelrodriguezricc/sketches/hD-cb0jsG)
 
-- **Example Implementation Link:** [Three.js Escher-style Example](https://threejs.org/examples/#webgl_camera_cinematic)
+In addition, we can also use p5.js's beginShape() and endShape() combined with the vertex() function to create the effect of broken fragments. Irregular shapes can be built by defining the vertices of polygons to create a broken feel.
 
-By leveraging Three.js, I can replicate the non-linear structures and illusions present in Escher's artwork, presenting complex concepts in an engaging manner to stimulate viewer's thoughts and exploration.
+[example shows image rotation](https://p5js.org/reference/#/p5/vertex)
+
+vTexCoord can also help us create a cutting and shattering feeling.
+[vTexCoord example shows image cutting and cracking feeling](./assets/Example2.png)
+[Link CODE](https://editor.p5js.org/AndreaOguey/sketches/TBQBVh3Vh)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+9
