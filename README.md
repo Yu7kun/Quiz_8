@@ -28,7 +28,7 @@ For the implementation of the visual effects inspired by the color palette of th
 
 - **Example Implementation:** Below is an example link demonstrating the use of the vTexCoord function from the p5.js library to create color patterns inspired by the PV image:
 
-[p5.js FBM Example](./assets/Example1.png)
+![p5.js FBM Example](./assets/Example1.png)
 [Link CODE](https://editor.p5js.org/marcelrodriguezricc/sketches/hD-cb0jsG)
 
 In addition, we can also use p5.js's beginShape() and endShape() combined with the vertex() function to create the effect of broken fragments. Irregular shapes can be built by defining the vertices of polygons to create a broken feel.
@@ -36,7 +36,7 @@ In addition, we can also use p5.js's beginShape() and endShape() combined with t
 [example shows image rotation](https://p5js.org/reference/#/p5/vertex)
 
 vTexCoord can also help us create a cutting and shattering feeling.
-[vTexCoord example shows image cutting and cracking feeling](./assets/Example2.png)
+![vTexCoord example shows image cutting and cracking feeling](./assets/Example2.png)
 [Link CODE](https://editor.p5js.org/AndreaOguey/sketches/TBQBVh3Vh)
 
 
