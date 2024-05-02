@@ -20,7 +20,6 @@ All images are from PV screenshots
 
 I wanted to emulate this imaging technique and try to express the multifaceted nature of things in my work. I want to break the conventional narrative structure or use artistic techniques to show the diversity of objects or characters, so that the audience can have more thoughts and associations while watching the work.
 
-
 ## Part 2: Exploration of Coding Technology
 
 For the implementation of the visual effects inspired by the color palette of the PV image, I will use FBM Feedback GLSL from the p5.js library.
